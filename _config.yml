@@ -129,7 +129,7 @@ facebook:
   appId: 1526197851008996
 
 twitter:
-  profile: 
+  profile: https://twitter.com/i/lists/1268899317210849280
   loadSDK: true
 
 instagram:
