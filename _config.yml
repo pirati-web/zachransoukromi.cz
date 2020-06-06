@@ -1,0 +1,170 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Zachraň soukromí!
+email: info@zachransoukromi.cz
+description: Zachraň soukromí
+keywords: Zachraň soukromí
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://zachransoukromi.cz" # the base hostname & protocol for your site
+
+administrator:
+  email: jan.suchanek@gmail.com
+
+theme: jekyll-theme-pirati
+
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# Build settings
+markdown: kramdown
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-environment-variables
+  - jekyll-paginate-v2
+
+# Due to us using the categories for posts then it is advisable to explicitly specify a 
+# permalink structure for the site. Otherwise Jekyll attempts to organize the pages in folders
+# by the category names and it doesn't understand multi-categories to well :/
+permalink: /:year/:month/:title.html
+#permalink: pretty
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 10
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
+
+exclude:
+  - Dockerfile
+  - docker-compose.yml
+  - deploy_rsa_sandbox.enc
+  - deploy_rsa_sandbox.pub
+  - navod.md
+  - readme.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+permalink: /tiskove-zpravy/:title/
+collections:
+  people:
+    output: true
+    root: /clenove/
+    permalink: /clenove/:path/
+
+  # Sole purpose is to create candidate lists in separate files.
+  candidatelists:
+    output: false
+
+defaults:   # defaults values for collection scope
+  -
+    scope:
+      path: "_people"
+    values:
+      layout: "person"
+      rbar:
+        - foto
+        - personContact
+        - people
+      keywords: členové, příznivci, lidé
+  -
+    scope:
+      path: "_program"
+    values:
+      layout: "program-post"
+      rbar:
+        - garant
+        - program
+      keywords: program, volby, 2018, komunální volby
+
+organization:
+  name: Zachraň soukromí!
+  shortName: Zachraň soukromí!
+  email: info@pirati.cz
+  contactUid: 
+  phone: +420 
+  address: |
+    Na Moráni 3
+    120 00 Praha 2
+  #residenceImg: miscellaneous.jpg
+  mapLink: https://mapy.cz/s/2N7Yv
+  redmineLink: https://redmine.pirati.cz/projects/
+  dataBoxId: b2i4r6j
+  transparentAccount: 2100048174/2010
+  transparentAccountSpecificSymbol: 110111
+
+contactSummaryItems:
+  - type: organizationEmail
+  - type: organizationRedmineLink
+  - type: organizationPhone
+  - type: organizationTransparentAccount
+    includeMoreLink: true
+  - type: custom
+    iconClass: fa fa-facebook
+    label: Facebooková stránka
+    body: 
+
+calendar:
+  # To enable a nicer calendar, make sure you start jekyll with GOOGLE_CALENDAR_APIKEY=[apikey] bundle exec jekyll serve
+  title: Nadcházející události
+  id: 0lmvrce8ph0t1mqa5uk4v98ui4@group.calendar.google.com
+  page: https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=AGENDA&amp;height=500&amp;wkst=2&amp;hl=cs&amp;bgcolor=%23FFFFFF&amp;src=kddvdvu3adcjef2kro4j6mm838%40group.calendar.google.com&amp;color=%232952A3&amp;ctz=Europe%2FPrague
+
+facebook:
+  profilePage: https://www.facebook.com/ceska.piratska.strana/
+  loadSDK: true
+  appId: 1526197851008996
+
+twitter:
+  profile: 
+  loadSDK: true
+
+instagram:
+  profilePage: 
+
+#forum:
+#  page: https://forum.pirati.cz/
+
+github:
+  url: https://github.com/pirati-web/zachransoukromi.cz/
+  branch: master
+
+emptyArray: []
+
+assets:
+  source_maps: true
+  compression: true
+  gzip: false
+  plugins:
+    css: { autoprefixer: {}}
+    img:
+      optim:
+        jpegoptim:
+          strip: all
+          max_quality: 80
+  autoprefixer:
+    browsers:
+      - "last 2 versions"
+      - "IE > 9"
+  sources:
+    - vendor/bundle/ruby/2.5.0/gems/jekyll-theme-pirati-7.7.1/_sass
+    - assets/css
+    - assets/fonts
+    - assets/video
+    - assets/img
+    - assets/img/posts
+    - assets/snippet
+    - _sass

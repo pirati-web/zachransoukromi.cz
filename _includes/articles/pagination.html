@@ -1,0 +1,35 @@
+{% if paginator.total_pages > 1 %}
+<ul class="c-pagination text-center" role="navigation" aria-label="Pagination">
+    {% if paginator.first_page %}
+    <li class="c-pagination__previous c-pagination__link">
+        <a class="c-pagination__anchor" href="{{ paginator.first_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', ''  }}">První</a>
+    </li>
+    {% endif %}
+
+    {% if paginator.previous_page %}
+    <li class="c-pagination__previous c-pagination__link">
+        <a class="c-pagination__anchor" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}">&larr; Předchozí</a>
+    </li>
+    {% endif %}
+
+    {% if paginator.page_trail %}
+      {% for trail in paginator.page_trail %}
+        <li class="c-pagination__link{% if page.url == trail.path %}  c-pagination__link--current {% endif %}">
+            <a class="c-pagination__anchor" href="{{ trail.path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}" title="{{trail.title}}" aria-label="Stránka {{ trail.num }}">{{ trail.num }}</a>
+        </li>
+      {% endfor %}
+    {% endif %}
+
+    {% if paginator.next_page %}
+    <li class="c-pagination__next c-pagination__link">
+        <a class="c-pagination__anchor" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}">Další &rarr;</a>
+    </li>
+    {% endif %}
+
+     {% if paginator.last_page %}
+    <li class="c-pagination__next c-pagination__link">
+        <a class="c-pagination__anchor" href="{{ paginator.last_page_path | prepend: site.baseurl | replace: '//', '/' | replace: 'index.html', '' }}">Poslední</a>
+    </li>
+    {% endif %}
+</ul>
+{% endif %}

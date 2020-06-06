@@ -1,0 +1,591 @@
+---
+layout: default
+title: Časová osa
+description: 
+keywords: 
+---
+
+<style>
+@media print, screen and (min-width: 40em) {
+    .timeline-headline {
+        margin-bottom: 4rem;
+        text-align: center
+    }
+}
+
+.timeline .timeline-item::after, .timeline .timeline-item::before {
+    clear: both;
+    content: '';
+    display: block;
+    width: 100%
+}
+
+.timeline {
+    position: relative
+}
+
+@media print, screen and (min-width: 40em) {
+    .timeline:before {
+        background: #f3f3f3;
+        content: '';
+        height: 100%;
+        left: 50%;
+        position: absolute;
+        top: 0;
+        width: 3px
+    }
+
+    .timeline:after {
+        clear: both;
+        content: '';
+        display: table;
+        width: 100%
+    }
+}
+
+.timeline-item {
+    margin-bottom: 1rem;
+    position: relative
+}
+
+@media print, screen and (min-width: 40em) {
+    .timeline-item {
+        margin-bottom: 3rem
+    }
+}
+
+.timeline-item:last-of-type {
+    background: #fff;
+    margin-bottom: 0
+}
+
+.timeline-icon {
+    display: none;
+    background: #eaeaea;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    left: 50%;
+    margin-left: -2rem;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    text-align: center
+}
+
+.timeline-icon i {
+    font-size: 26px;
+    line-height: 4rem
+}
+
+@media print, screen and (min-width: 40em) {
+    .timeline-icon {
+        display: block
+    }
+}
+
+.timeline-content {
+    background: transparent;
+    display: flex;
+    flex-direction: column
+}
+
+.timeline-content__media {
+    display: none
+}
+
+@media print, screen and (min-width: 40em) {
+    .timeline-content {
+        justify-content: space-between;
+        flex-direction: row
+    }
+
+    .timeline-content__desc {
+        flex: 1;
+        margin-right: 6rem;
+        text-align: right
+    }
+
+    .timeline-content__media {
+        display: block;
+        flex: 1;
+        margin-left: 6rem;
+        text-align: left
+    }
+
+    .timeline-content__media img {
+        max-height: 20rem
+    }
+
+    .timeline-content.timeline-content--right .timeline-content__desc {
+        order: 2;
+        margin-right: 0;
+        margin-left: 6rem;
+        text-align: left
+    }
+
+    .timeline-content.timeline-content--right .timeline-content__media {
+        order: 1;
+        margin-left: 0;
+        margin-right: 6rem;
+        text-align: right
+    }
+}
+
+.timeline-content__date {
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+@media print, screen and (min-width: 40em) {
+    .timeline-content__date {
+        font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+        font-size: 1rem;
+        font-weight: 400
+    }
+}
+
+.timeline-content__title {
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+    font-size: 1.238rem;
+    font-weight: 700
+}
+
+@media print, screen and (min-width: 40em) {
+    .timeline-content__title {
+        font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
+        font-size: 1.238rem;
+        font-weight: 700
+    }
+}
+</style>
+
+<div class="row">
+  <div class="columns">
+    <div class="o-section">
+      <div class="o-section-inner">
+          <header class="c-page-header">
+            <h1 itemprop="headline" class="c-page-title">{{ page.title }}</h1>
+          </header>
+
+<p class="lead">
+    <strong>Piráti tuto novelu sledují již od přípravné fáze, kdy aktivně zasílali připomínky v rámci mezirezortního připomínkovacího řízení.</strong>
+</p>
+</section>
+
+  <div class="row">
+    <div class="small-12 columns">
+      <div class="timeline">
+        
+        
+        
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">18. 6. 2020</p>
+                <h2 class="timeline-content__title">Novela v prvním čtení</h2>
+                <p>Otevírá se novela zákona o vojenském zpravodajství v prvním čtení.</p>
+              </div>
+
+              <div class="timeline-content__media">
+                <img class="timeline-image" src="/assets/img/miscellaneous/school-ring.png" alt= "Návrh zákona byl předložen"/>
+              </div>
+            </div>
+          </div>
+        
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">30. 3. 2020</p>
+                <h2 class="timeline-content__title">Návrh zákona byl předložen</h2>
+                <p>Návrh zákona byl předložen Poslanecké sněmovně jako <a href="https://www.psp.cz/sqw/historie.sqw?o=8&T=800" style="text-decoration:underline" rel="external nofollow noreferrer" target="_blank">Sněmovní tisk 800</a></p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">březen 2020</p>
+                <h2 class="timeline-content__title">Ondřej Profant</h2>
+                <p> <a href="https://www.egovernment.cz/inpage/kyberbezpecnost-2020/" style="text-decoration:underline" rel="external nofollow noreferrer" target="_blank">komentuje</a> pro magazín Egovernment.</p>
+              </div>
+
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+        
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">24. 3. 2020</p>
+                <h2 class="timeline-content__title">Ivan Bartoš</h2>
+                <p> <a href="https://denikn.cz/321464/vlada-v-nouzovem-rezimu-kyvla-na-zakon-o-sledovani-internetu-neni-mozne-aby-se-vse-zastavilo-vysvetluje-metnar/" style="text-decoration:underline" rel="external nofollow noreferrer" target="_blank">komentuje</a> pro Deník N.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+        
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">16.3.2020</p>
+                <h2 class="timeline-content__title"></h2>
+                <p> Návrh zákona byl schválen vládou. <a href="https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html" style="text-decoration:underline" rel="external" target="_blank">Piráti vydali tiskovou zprávu</a>, kterou zmiňuje <a href="https://a2larm.cz/2020/03/pod-svicnem-tma-do-vlady-jde-zakon-o-vojenskem-zpravodajstvi/" rel="external nofollow noreferrer" target="_blank">a2larm</a>.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">12.2.2020</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Návrh zákona probírán na stálé komisi pro kontrolu vojenského zpravodajství.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">14.1.2020</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>František Kopřiva <a href="https://www.lidovky.cz/domov/armadni-spioni-maji-branit-cesky-internet-na-vladu-miri-novela-zakona-o-vojenskem-zpravodajstvi-posi.A200113_211738_ln_domov_ele" style="text-decoration:underline" rel="external nofollow noreferrer" target="_blank">komentuje novelu</a> pro Lidové noviny.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">7.1.2020</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Návrh zákona <a href="https://apps.odok.cz/veklep-detail?pid=ALBSB9BGVY8D" style="text-decoration:underline" rel="external nofollow noreferrer" target="_blank">předložen</a> Vládě ČR. Některé naše <a href="pripominky.html">připomínky</a> byly akceptovány.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">8.10.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Další komunikace mezi Františkem Kopřivou, ministrem Metnarem a ředitelem Berounem.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">27.9.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Ondřej Profant debatuje o novele s ředitelem Berounem a dalšími odborníky.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">6.6.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>František Kopřiva se schází s legislativcem vojenského zpravodajství k našim připomínkám.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">5.6.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p><a href="https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html" style="text-decoration:underline" rel="external" target="_blank">Tisková zpráva - Piráti navrhují opatření proti šmírovaní na internetu.</a></p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">3.6.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>František Kopřiva posílá <a href="pripominky.html">připomínky</a> ministru Metnarovi a řediteli Berounovi.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">3.5.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Ondřej Profant se schází s ředitelem Berounem a ministrem Metnarem.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">6.4.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Ondřej Profant <a href="https://ct24.ceskatelevize.cz/domaci/2780879-cesko-umi-detekovat-kyberneticke-utoky-chybi-ale-aktivni-obrana-potrebna-novela-uz" style="text-decoration:underline" rel="external nofollow noreferrer" target="_blank">kritizuje</a> porušování soukromí v návrhu novely.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">20.3.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>František Kopřiva návrh komentuje pro Večerní zprávy Seznam.cz TV</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">20.3.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Vojenské zpravodajství představuje záměr na výboru pro obranu. <a href="https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html" style="text-decoration:underline" rel="external" target="_blank">Piráti vydali tiskovou zprávu.</a></p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">14.3.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>František Kopřiva se schází s ředitelem Berounem a ministrem Metnarem.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">9.3.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Ondřej Profant <a href="https://www.novinky.cz/domaci/clanek/vojensti-spioni-odmitaji-pri-sledovani-internetu-dozor-strazcu-soukromi-40273758" style="text-decoration:underline" rel="external noreferrer nofollow" target="_blank">se ohrazuje</a> proti vyškrtnutí ÚOOÚ z připomínkového řízení.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">8.3.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Zaslány <a href="pripominky.html" style="text-decoration:underline" >připomínky</a> na ministerstvo obrany.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">12.2.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Návrh zákona byl vložen do připomínkovacího řízení.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content timeline-content--right">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">27.1.2019</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Ondřej Profant <a href="https://www.novinky.cz/internet-a-pc/bezpecnost/clanek/plosne-sledovani-internetu-rozvedka-si-musi-jeste-pockat-40269245" style="text-decoration:underline" rel="external noreferrer nofollow" target="_blank">se vyjadřuje k záměru</a> ministra obrany novelizovat Zákon o vojenském zpravodajství.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-icon">
+              <i class="fa fa-info-circle" aria-hidden="true"></i>
+            </div>
+
+            <div class="timeline-content ">
+              <div class="timeline-content__desc">
+                <p class="timeline-content__date">květen 2018</p>
+                <h2 class="timeline-content__title"></h2>
+                <p>Ondřej Profant se vyjadřuje k riziku přijetí kontroverzní novely z roku 2017.</p>
+              </div>
+              <div class="timeline-content__media">
+                  
+              </div>
+            </div>
+          </div>
+        
+      </div>
+    </div>
+  </div>
+
+<!--
+<ul class="list-group">
+
+</ul>
+-->
+      </div>
+    </div>
+  </div>
+</div>
+

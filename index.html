@@ -1,0 +1,54 @@
+---
+layout: default
+rbar:
+  - calendar
+  - fb
+description: >
+---
+
+{% include homepage/banner.html
+   link='/radnice/'
+   title='Radnice'
+   default='header/komunal-banner-large.png'
+   mobile='header/komunal-banner-small.png'
+   breakpoint=640
+%}
+
+<div class="row">
+  <div class="medium-12 large-8 columns">
+    <section class="o-section o-section--spaceBot">
+      <div class="o-section-inner o-section-inner--leftBlock">
+        <header class="o-section-header">
+          <h1 class="o-section__heading t-h1-super">Zachraň soukromí!</h1>
+        </header>
+        
+        <p class="lead">Vláda předkládá kontroverzní novelu zákona o vojenském zpravodajství</p>
+        <p>Tato novela by umožnila Vojenskému zpravodajství instalovat blíže nespecifikované "nástroje detekce" u poskytovatelů internetu a dále blíže nespecifikované "aktivní zásahy" rozvědčíků na internetu.</p>
+        <p>Piráti, ICT unie, hospodářská či advokátní komora a občanský sektor namítají, že zákon je paskvil v rozporu s ústavou, listinou základních práv a svobod a evropským právem.</p>        
+
+        <h2>Aktuálně</h2>
+        {% for article in site.posts limit: 6 %}
+          {% include articles/horizontal-article.html article=article %}
+        {% endfor %}
+        <div class="c-article-listing__nextbox">
+          <a href="{{'/aktuality/' | relative_url}}" rel="next" class="button expanded large">Další články</a>
+        </div>
+      </div>
+    </section>
+  </div>
+  {% if page.rbar %}
+  <div class="medium-12 large-4 columns">
+    <br>
+    <img src="/assets/img/miscellaneous/school-ring.png" />
+    <h2>Stav k 18. 6. 2020</h2>
+    <ul>
+      <li>Otevírá se novela zákona o vojenském zpravodajství v prvním čtení.</li>
+      <li>Zákon byl <a class="c-emphasized-anchor u-stacked" style="text-decoration: underline;" href="https://www.psp.cz/sqw/historie.sqw?o=8&T=800" rel="external nofollow noreferrer" target="_blank">předložen do sněmovny</a>.</li>
+      <li>Naše <a class="c-emphasized-anchor u-stacked" style="text-decoration: underline;" href="/pripominky">připomínky</a> k aktuální verzi stále trvají.</li>
+      <li>Dosavadní postup Pirátů naleznete <a class="c-emphasized-anchor u-stacked" style="text-decoration: underline;" href="/casova-osa">zde</a></li>
+    </ul>
+
+    {% include right-bar/rbar.html param='rbar' %}
+  </div>
+  {% endif %}
+</div>
