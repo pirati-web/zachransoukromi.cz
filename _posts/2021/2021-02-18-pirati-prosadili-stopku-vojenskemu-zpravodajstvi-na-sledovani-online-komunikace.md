@@ -41,7 +41,7 @@ Z pohledu běžného uživatele internetu se nová úprava pravomocí Vojenskéh
 Další informace a naše výstupy k zákonu o Vojenském zpravodajství jsou dostupné na webu  [https://zachransoukromi.cz/](https://zachranasoukromi.cz/)[.](https://zachransoukromi.cz/)
 
 **Tiskové zprávy - jak šel čas:**  
-- [https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html](https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html%C2%A0)  
-- [https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html](https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html)  
-- [https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html](https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html)  
-- [https://www.pirati.cz/tiskove-zpravy/online-komunikace-smirovani-vojenske-zpravodajstvi.html](https://www.pirati.cz/tiskove-zpravy/online-komunikace-smirovani-vojenske-zpravodajstvi.html)
+- [Piráti: Soukromí občanů v ohrožení. Vláda chce zavést možnost zpravodajských služeb šmírovat občany na internetu](https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html)  
+- [Piráti navrhují opatření proti šmírovaní na internetu](https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html)  
+- [Na programu vlády je kontroverzní novela vojenského zpravodajství, Piráti varují před ztrátou soukromí na internetu](https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html)  
+- [Pirátům se podařilo prosadit, aby Vojenské zpravodajství nemohlo sledovat online komunikaci, nedostatečné ošetření aktivních zásahů a děravá kontrola však přetrvávají](https://www.pirati.cz/tiskove-zpravy/online-komunikace-smirovani-vojenske-zpravodajstvi.html)
