@@ -5,7 +5,7 @@ tags:         bezpečnost cenzura legislativa
 layout:       post
 title:        "Piráti prosadili stopku Vojenskému zpravodajství na sledování online komunikace. Nedostatečné ošetření zásahů a děravá kontrola přetrvávají"
 image:        articles/2021/2021-02-18-pirati-prosadili-stopku-vojenskemu-zpravodajstvi-na-sledovani-online-komunikace.jpg
-author:       František Kopřiva, Ondra Profant
+author:       František Kopřiva, Ondřej Profant
 ---
 
 Vojenské zpravodajství dostalo za úkol vykonávat kybernetickou obranu už v minulém volebním období, kdy byla také předložena první verze novely zákona, která měla zpravodajské službě Armády ČR umožnit odpovídající pravomoci a nastavit zákonný rámec obrany důležitých zájmů státu v kyberprostoru. Novela byla tehdy právem rozcupována a spadla pod stůl mj. i díky tlaku Pirátů, kteří v roce 2016 uspořádali demonstraci. Zákon byl totiž napsaný tak, že by zpravodajci mohli sledovat obsah komunikace na internetu, tedy de facto zavedení možnosti odposlechu občanů bez povolení soudu.
