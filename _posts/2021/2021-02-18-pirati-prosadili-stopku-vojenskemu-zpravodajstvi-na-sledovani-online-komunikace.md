@@ -10,8 +10,6 @@ author:       František Kopřiva, Ondra Profant
 
 Vojenské zpravodajství dostalo za úkol vykonávat kybernetickou obranu už v minulém volebním období, kdy byla také předložena první verze novely zákona, která měla zpravodajské službě Armády ČR umožnit odpovídající pravomoci a nastavit zákonný rámec obrany důležitých zájmů státu v kyberprostoru. Novela byla tehdy právem rozcupována a spadla pod stůl mj. i díky tlaku Pirátů, kteří v roce 2016 uspořádali demonstraci. Zákon byl totiž napsaný tak, že by zpravodajci mohli sledovat obsah komunikace na internetu, tedy de facto zavedení možnosti odposlechu občanů bez povolení soudu.
 
-![kamery smirovani big brother](https://www.piratskelisty.cz/upload/thumbs/w600/5024.jpg "Piráti jsou pro ochranu soukromí a bezpečnost občanů nejen na internetu")
-
 **Šmírování uživatelů na internetu?**  
 Další pokus už jsme měli možnost sledovat ze sněmovních lavic, když byla další verze novely představena na jaře 2018. Návrh byl však stejně nepřijatelný jako předchozí verze. Ve stejném duchu se vyjádřili jak zástupci odborné veřejnosti, tak i provozovatelé internetových sítí a také řada státních institucí v mezirezortním připomínkovém řízení.
 
@@ -43,7 +41,7 @@ Z pohledu běžného uživatele internetu se nová úprava pravomocí Vojenskéh
 Další informace a naše výstupy k zákonu o Vojenském zpravodajství jsou dostupné na webu  [https://zachransoukromi.cz/](https://zachranasoukromi.cz/)[.](https://zachransoukromi.cz/)
 
 **Tiskové zprávy - jak šel čas:**  
-[https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html](https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html%C2%A0)  
-[https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html](https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html)  
-[https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html](https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html)  
-[https://www.pirati.cz/tiskove-zpravy/online-komunikace-smirovani-vojenske-zpravodajstvi.html](https://www.pirati.cz/tiskove-zpravy/online-komunikace-smirovani-vojenske-zpravodajstvi.html)
+- [https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html](https://www.pirati.cz/tiskove-zpravy/soukromi-obcanu-v-ohrozeni-vojenska-rozvedka.html%C2%A0)  
+- [https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html](https://www.pirati.cz/tiskove-zpravy/internet-smirovani-zpravodajcu-pirati-zamezi.html)  
+- [https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html](https://www.pirati.cz/tiskove-zpravy/internet-pod-dohledem-zpravodajcu.html)  
+- [https://www.pirati.cz/tiskove-zpravy/online-komunikace-smirovani-vojenske-zpravodajstvi.html](https://www.pirati.cz/tiskove-zpravy/online-komunikace-smirovani-vojenske-zpravodajstvi.html)
